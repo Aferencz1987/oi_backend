@@ -1,0 +1,20 @@
+{
+  // Minimal, app-friendly TS config for Vite + React
+  // Keep this file JSONC (comments allowed). Adjust options as needed.
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "types": [
+      "vite/client"
+    ]
+  }
+}
